@@ -10,9 +10,9 @@ train.dat is used for training and test data test.dat consisting of peptide sequ
 from an alphabet of 20 characters, each representing an amino-acid residue. The training set also includes the label for each sequence as 1 (antibiofilm) or -1 (not antibiofilm) as the
 first character in each line of the training file, separated from the sequence by a tab (\t) character.
 ## Approach
-*item1 Used K-mers for feature extraction 
-*item2 Used imbalanced-learn python library for oversamplin the imbalanced dataset
+* Used K-mers for feature extraction 
+* Used imbalanced-learn python library for oversamplin the imbalanced dataset
 ## Results
-*item1 Train Accuracy: 1.0
-*item2 Validation Accuracy: 0.97
-*item3 MCC Score on test data: 0.8642
+* Train Accuracy: 1.0
+* Validation Accuracy: 0.97
+* MCC Score on test data: 0.8642
